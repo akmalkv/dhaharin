@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Nunito&family=Roboto:wght@300&display=swap');
+
+body{
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+.top{
+    padding-top: 2rem;
+    width: 100%;
+    height: 4rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.top input[type="text"] {
+    margin-left: 1rem;
+    border-radius: 10px;
+    width: 15rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.tab{
+    width: 90%;
+    margin: 3rem auto;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    height: 80%;
+}
+
+.tab1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    font-family: dongle;
+    font-size: 35px;
+}
+
+.content{
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+
+.scroll-table{
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+#btnHandle{
+    margin: 2rem;
+    width: 6rem;
+    height: 2rem;
+    text-decoration: none;
+    border: none;
+    font-family: dongle;
+    font-size: 20px;
+    background-color: #33da09;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#btnHandle:hover{
+    opacity: 70%;
+}
+
+table{
+    margin: auto;
+    font-family: dongle;
+    border-collapse: separate;
+    border-spacing: 0; 
+    width: 100%;
+}
+
+table thead tr{
+    background-color: #ddd;
+}
+
+table thead tr th:first-child{
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px;
+}
+
+table thead tr th:last-child{
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px;
+}
+
+tbody{
+    margin-top: 20px;
+}
+
+th {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #4d4d4d;
+}
+
+td {
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+  
+table tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+.switch-content{ 
+    width: 90%;
+    margin: auto;
+    display: none;
+}
+
+.switch-content1{ 
+    width: 90%;
+    margin: 0 auto;
+    display: none;
+}
+
+#btn{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 1rem;
+}
+
+#done{
+    text-decoration: none;
+    border: none;
+    font-size: 20px;
+    padding: 2.5px 16px;
+    background-color: #33da09;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: dongle;
+}
+
+#hapus{
+    font-family: dongle;
+    text-decoration: none;
+    border: none;
+    font-size: 20px;
+    padding: 5px 16px;
+    background-color: #da0909;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#flex{
+    display: flex;
+    font-size: 25px;
+    gap: 1rem;
+}
+
+#edit{
+    font-size: 20px;
+    font-family: dongle;
+    text-decoration: none;
+    border: none;
+    padding: 5px 16px;
+    background-color: #67da09;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-family: dongle;
+    font-size: 25px;
+}
+
+input[type="file"],
+input[type="text"] {
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="file"] {
+    margin-bottom: 20px;
+}
+
+select {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+
+
+

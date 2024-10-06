@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Nunito&family=Roboto:wght@300&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f5f5f5;
+    height: 100vh;
+}
+
+.flex{
+    display: flex;
+    gap: 25%;
+}
+
+.teks{
+    margin-top: 5%;
+}
+
+.teks .top{
+    font-family: nunito;
+    font-size: 70px;
+    font-style: bold;
+    margin-left: 185px;
+}
+
+.teks .bottom{
+    font-family: nunito;
+    font-size: 90px;
+    font-style: bold;
+    margin-left: 284px;
+    color: #F5BB33;
+    margin-top: -15px;
+}
+
+.garis{
+    width: 30rem; 
+    height: 0.1rem; 
+    background-color: #F5BB33; 
+}
+
+.teks p{
+    font-family: roboto;
+    font-size: 15px;
+    margin-left: 185px;
+    margin-top: 0.6rem;
+    font-weight: bold;
+}
+
+.box{
+    padding-top: 2rem;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px 20px 0 0;
+    background: rgb(255,255,240);
+    background: linear-gradient(0deg, rgba(255, 255, 240, 0) 0%, rgba(254, 186, 15, 0.493) 46%, rgba(254,187,15,1) 100%);
+}
+
+.box1{
+    position: relative;
+    margin-left: -5rem;
+    width: 400px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kotak{
+    position: relative;
+    text-align: center;
+    width: 10rem;
+    height: 11rem;
+    margin: 0 1rem 2rem 1rem;
+    background-color: #ffffff8f;
+    border-radius: 15px;
+    box-shadow: 0px 3px rgba(0, 0, 0, 0.158);
+}
+
+#image{
+    position: relative;
+    margin: -4rem auto;
+}
+
+.kotak img{
+    width: 8rem;
+}
+
+.kotak .menuMakanan{
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    background: none;
+    font-family: dongle;
+    font-size: 24px;
+    color: black;
+}
+
+.kotak .asal{
+    margin-top: 0;
+    font-family: dongle;
+    font-style: light;
+    font-size: 22px;
+    color: black;
+}
+
+.kotak button{
+    background-color: #FEBB0F;
+    width: 60px;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    font-family: dongle;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+    z-index: 999;
+}
+
+.kotak button:hover{
+    background-color: rgba(243, 180, 6, 0.507);
+}
+
+.promosi{
+    display: flex;
+    padding: 0 10rem;
+    gap: 5rem;
+}
+
+
+.promosi1 {
+    background-color: #ffffffb7;
+    display: flex;
+    gap: 2rem;
+    width: 340px;
+    height: 210px;
+    border-radius: 15px;
+    box-shadow: 0px 3px rgba(0, 0, 0, 0.158);
+}
+
+.promosi1 .image {
+    position: relative;
+    margin-left: -20px;
+    margin-top: -40px;
+    width: 10rem;
+    height: 10rem;
+}
+
+.isi{
+    width: max-content;
+    padding-top: 1rem;
+}
+
+.isi .btnK{
+    margin-left: 7rem;
+}
+
+.isi .menu{
+    font-family: dongle;
+    font-size: 40px;
+    color: black;
+}
+
+.isi .rating{
+    display: flex;
+    gap: 5px;
+}
+
+.rating p{
+    font-family: dongle;
+    font-size: 20px;
+    color: #000;
+}
+
+.isi .flex1{
+    display: flex;
+    gap: 4rem;
+}
+
+.isi .harga{
+    font-family: dongle;
+    font-size: 36px;
+    color: black;
+}
+
+.isi .b-Beli{
+    text-decoration: none;
+    border: none;
+    margin-top: 0.5rem;
+    font-size: 20px;
+    height: 2rem;
+    padding: 2.5px 16px;
+    background-color: #F5BB33;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: dongle;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    background: #202833;
+    width: 100vw;
+    height: 40px;
+    text-align: center;
+}
+
+.footer p{
+    font-family: dongle;
+    color: #fff;
+}
+
+/* window buy */
+
+.center-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    z-index: 9999;
+    display: none;
+    transition: opacity 0.5s;
+}
+
+.buy{
+    width: 60rem;
+    height: 40rem;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0px 3px rgba(0, 0, 0, 0.158);
+    font-family: dongle;
+}
+
+.center-container.show{
+    opacity: 1;
+    display: block;
+}
+
+label{
+    font-size: 20px;
+}
+
+.close{
+    margin: 1rem;
+    float: right;
+    font-size: 1.5rem;
+    color: #FEBB0F;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.close:hover{
+    opacity: 40%;
+}
+
+#form-img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 11.5rem;
+    height: 11rem;
+}
+
+#t-img{
+    font-size: 32px;
+    text-align: center;
+}
+
+.t-1{
+    text-align: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.t-1 input{
+    margin-bottom: 1rem;
+    height: 40px;
+    width: 80%;
+    padding: 0 20px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.t-1 input:is(:focus, :valid){
+    border-bottom-color: #FEBB0F;
+}
+
+.count{
+    width: 9rem;
+    margin-top: 1rem;
+    margin-left: 23px;
+    display: flex;
+    border-radius: 5px;
+    height: 1.7rem;
+}
+
+.c-1{
+    border: 1px solid #ccc;
+    text-align: center;
+    outline: none;
+    width: 3rem;
+    height: 1.5rem;
+    background-color: #ffffff;
+    border-radius: 3px;
+    margin-left: 1rem;
+}
+
+
+#btnBuy{
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+    width: 20rem;
+    height: 2rem;
+    background-color: #FEBB0F;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#b-btn:hover{
+    opacity: 70%;
+}
+
